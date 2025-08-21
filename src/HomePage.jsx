@@ -1,13 +1,13 @@
 
 import React, { useEffect, useState } from "react";
-import Header from "./Layout/Header";
-import SideText from "./Layout/SideText";
-import HoverLens from "./Layout/HoverLens";
-import Hero from "./Sections/Hero";
-import Work from "./Sections/Work";
-import Contact from "./Sections/Contact";
-import MoreContent from "./Sections/MoreContent";
-import ScrollContent from "./Sections/ScrollContent";
+import Header from "./component/layout/Header";
+import SideText from "./component/layout/SideText";
+import HoverLens from "./component/layout/HoverLens";
+import Hero from "./component/section/Hero";
+import Work from "./component/section/Work";
+import Contact from "./component/section/Contact";
+import MoreContent from "./component/section/MoreContent";
+import ScrollContent from "./component/section/ScrollContent";
 
 const HomePage = () => {
   const [pos, setPos] = useState({ x: 0, y: 0 });
