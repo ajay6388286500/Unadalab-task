@@ -10,7 +10,7 @@ const Work = () => {
         sure, you are very welcome to see it on
       </p>
 
-      <div className="flex flex-col gap-4 sm:gap-6 text-[10vw] sm:text-[7vw] font-bold leading-tight">
+      <div className="flex flex-col  sm:gap-6 text-[10vw] sm:text-[7vw] font-bold leading-tight">
         {["Behance", "dribbble", "instagram"].map((link, i) => (
           <React.Fragment key={i}>
             <a

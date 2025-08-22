@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 const HoverLens = ({ pos }) => {
   return (
     <motion.div
-      className="fixed w-24 sm:w-40 h-24 sm:h-40 rounded-full pointer-events-none z-40"
+      className="fixed w-20 sm:w-32 h-20 sm:h-32 rounded-full pointer-events-none z-40"
       style={{
-        backdropFilter: "blur(8px) contrast(120%) brightness(110%)",
+        backdropFilter: "blur(4px) contrast(120%) brightness(110%)",
         WebkitBackdropFilter: "blur(8px) contrast(120%) brightness(110%)",
         boxShadow: "0 0 60px 30px rgba(0, 180, 255, 0.25)",
         border: "2px solid rgba(0, 200, 255, 0.5)",
