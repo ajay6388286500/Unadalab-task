@@ -49,7 +49,7 @@ const HomePage = () => {
             </li>
           </ul>
 
-          <div className="w-full h-[1px] sm:h-[2px] bg-gray-700/50 mb-8 sm:mb-[6vw]"></div>
+          <div className="w-full h-[1px] sm:h-[2px] bg-gray-700/50 mb-6 sm:mb-[6vw]"></div>
 
           {/* Construction Heading */}
           <div className="leading-[0.9] select-none w-10/12">
@@ -64,7 +64,7 @@ const HomePage = () => {
             </h1>
           </div>
 
-          <div className="w-full h-[1px] sm:h-[2px] bg-gray-700/50 mt-8 sm:mt-12"></div>
+          <div className="w-full h-[1px] sm:h-[2px] bg-gray-700/50 mt-6 sm:mt-12"></div>
 
           <Work />
           <Contact />

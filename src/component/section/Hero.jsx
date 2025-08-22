@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="leading-[0.8] select-none ">
+    <div className="leading-[0.8] select-none ">  
       <h5 className="relative z-[15] mb-4 sm:mb-[4vw] font-['Epilogue',sans-serif] text-[#090d11] text-base sm:text-[3vw] leading-tight font-medium">
         Yo yo my dear stranger, I'm
       </h5>
